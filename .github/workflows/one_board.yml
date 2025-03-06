@@ -10,6 +10,7 @@ on:
         type: choice
         options:
           - fine3399
+          - station-p1
           - fmx1-pro
           - r08
           - rock960
