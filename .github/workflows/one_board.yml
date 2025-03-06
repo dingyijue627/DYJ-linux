@@ -18,6 +18,7 @@ on:
           - tb-ls3399
           - xiaobao-nas
           - zysj
+          - rock64
       BRANCH:  
         description: 'Armbian branch'  
         default: 'current'  
@@ -43,7 +44,7 @@ on:
         required: false 
         type: choice
         options: 
-          - main
+          - 主要的
           - v24.11
           - v24.08
       BUILD_DESKTOP:  
