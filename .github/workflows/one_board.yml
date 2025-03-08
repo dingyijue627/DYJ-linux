@@ -45,7 +45,7 @@ on:
         required: false 
         type: choice
         options: 
-          - 主要的
+          - main
           - v24.11
           - v24.08
       BUILD_DESKTOP:  
