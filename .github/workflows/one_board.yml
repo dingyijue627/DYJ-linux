@@ -109,7 +109,7 @@ jobs:
           # 复制 config 和 userpatches 目录文件    
           cp -rf ${{ github.workspace }}/addboard/config/* config
           mkdir -p userpatches
-          cp -rf ${{ github.workspace }}/addboard/userpatches/* userpatches
+          #cp -rf ${{ github.workspace }}/addboard/userpatches/* userpatches
           ls -la
   
       - name: Compile Armbian [ ${{ inputs.BOARD }} ${{ inputs.RELEASE }} ] 
