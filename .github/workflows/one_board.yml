@@ -12,14 +12,7 @@ on:
           - fine3399
           - station-p1
           - fmx1-pro
-          - r08
-          - rock960
-          - sg2710
-          - tpm312
-          - tb-ls3399
-          - xiaobao-nas
-          - zysj
-          - rock64
+          - eaidk-310
       BRANCH:  
         description: 'Armbian branch'  
         default: 'current'  
