@@ -6,13 +6,14 @@ on:
       BOARD:  
         description: 'Board type'  
         required: true 
-        default: 'fmx1-pro'
+        default: 'rk322x-box'
         type: choice
         options:
           - fine3399
           - station-p1
           - fmx1-pro
           - eaidk-310
+          - rk322x-box
       BRANCH:  
         description: 'Armbian branch'  
         default: 'current'  
