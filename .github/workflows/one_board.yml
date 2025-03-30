@@ -33,6 +33,7 @@ on:
           - bookworm
           - noble
           - bullseye
+          - focal
       Version:
         description: 'Armbian Version'
         default: 'main'
