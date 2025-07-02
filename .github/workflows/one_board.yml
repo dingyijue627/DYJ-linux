@@ -14,6 +14,7 @@ on:
           - fmx1-pro
           - eaidk-310
           - rk322x-box
+          - radxa-cubie-a5e
       BRANCH:  
         description: 'Armbian branch'  
         default: 'current'  
@@ -23,6 +24,7 @@ on:
           - stable
           - current
           - edge
+          - dev
       RELEASE:  
         description: 'Release name' 
         default: 'bookworm'
